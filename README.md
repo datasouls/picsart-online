@@ -12,7 +12,7 @@ PicsArt AI Hackathon Online
 
 ## Набор данных
 
-Ссылка на набор изображений: [picsart_hack_online_data.zip](https://bucketeer-db1966c9-c9f8-427d-ae61-659a91a9fca7.s3.amazonaws.com/public/picsart_hack_online_data.zip)
+Ссылка на набор изображений: [picsart_hack_online_data.zip](https://s3.eu-central-1.amazonaws.com/datasouls/public/picsart_hack_online_data.zip)
 
 Для обучения моделей предоставляется выборка из ≈1500 размеченных картинок (каталог `train`) и масок сегментации (каталог `train_mask`). Маски представляю собой одноканальные изображения той же размерности, что и исходные изображения, и имеют только два значения цвета. Для оценки решений предоставляется тестовая выборка без соотвествующих масок (каталог `test`).
 
@@ -29,7 +29,7 @@ PicsArt AI Hackathon Online
 - `image` — номер изображения, указанный в имени файла (например, 11150)
 - `rle_mask` — построенная маска, закодированная при помощи run-length encoding
 
-Пример файла решения: [sample_submission.csv](https://bucketeer-db1966c9-c9f8-427d-ae61-659a91a9fca7.s3.amazonaws.com/public/picsart_hack_online_sample_submission.csv)
+Пример файла решения: [sample_submission.csv](https://s3.eu-central-1.amazonaws.com/datasouls/public/picsart_hack_online_sample_submission.csv)
 
 
 ## Система оценки
